@@ -658,4 +658,3 @@ Revert
 Tags
 Branch cleanup
 Basic Git troubleshooting
-```bash
