@@ -1074,4 +1074,3 @@ The goal is to understand:
 
 **What Git is doing, why we are doing it, and what state the repository is currently in.**
 
-```
