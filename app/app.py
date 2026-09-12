@@ -284,7 +284,7 @@ for i in range(0, len(filtered_df), 4):
         with cols[idx]:
             # Container for Scoped Product Card Styling
             with st.container():
-                st.image(row["image_url"], use_container_width=True)
+                st.image(row["image_url"], width="stretch")
                 st.markdown(f"**{row['name']}**")
                 st.caption(f"{row['unit']} | Stock: {row['stock']}")
                 st.markdown(f"### ₹{row['price']}")
@@ -305,3 +305,4 @@ for i in range(0, len(filtered_df), 4):
                                 "stock": row["stock"],
                             }
                         st.rerun()
+st.sidebar.success("Application Status: HEALTHY")
