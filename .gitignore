@@ -1,0 +1,16 @@
+# Streamlit development skills
+.agents/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Python virtual environments
+.venv/
+
+# Local database
+*.db
+
+# Editor temporary files
+*.swo
+*.bkp
